@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
-    const btnLink= 'block inline-block py-1 text-white hover:text-accent cursor-pointer mr-4'
-    const activeLink= 'block inline-block py-1 text-accent mr-4'
+    const btnLink= 'block inline-block py-1 text-blue-400 hover:underline cursor-pointer mr-4'
+    const activeLink= 'block inline-block py-1 text-blue-400 mr-4'
     return (
         <header className="text-gray-600 body-font">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">

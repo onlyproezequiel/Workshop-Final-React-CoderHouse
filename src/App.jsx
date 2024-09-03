@@ -15,7 +15,8 @@ function App() {
   
   return (
     <>
-      <div className="bg-secondary min-h-screen">
+      <div className="bg-black text-green-400 bg-gradient-to-r from-black via-gray-800 to-blackmin-h-screen ">
+      
 
 <NavBar></NavBar>
 
